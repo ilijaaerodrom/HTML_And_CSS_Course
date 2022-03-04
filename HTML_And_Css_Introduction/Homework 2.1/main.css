@@ -1,11 +1,17 @@
+
 body {
     background-color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    font-family: sans-serif;
+    color: #fff3e3;
+    font-size: 36px;
+}
+
+h1 {
+    color: #ae7182;
 }
 
 a {
-    color:hotpink
+    color: #ffb985;
 }
 
 
@@ -17,13 +23,13 @@ img {
 
 
 table, td {
-    border: solid gray 1px;
+    border: 1px solid gray;
     border-collapse: collapse;
     padding: 10px;
 }
 
 .language {
-    background-color: purple;
+    background-color: #262b53;
     font-weight:  bold;
 }
 
@@ -32,3 +38,4 @@ table, td {
     font-variant: small-caps;
     background: green;
 }
+
