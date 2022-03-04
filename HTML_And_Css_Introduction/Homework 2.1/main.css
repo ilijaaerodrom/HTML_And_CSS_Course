@@ -3,9 +3,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
+
 a {
     color:hotpink
 }
+
 
 img {
     display: block;
@@ -13,8 +15,20 @@ img {
     margin-right: auto;
 }
 
+
 table, td {
     border: solid gray 1px;
     border-collapse: collapse;
     padding: 10px;
+}
+
+.language {
+    background-color: purple;
+    font-weight:  bold;
+}
+
+#aloha {
+    letter-spacing: 8px;
+    font-variant: small-caps;
+    background: green;
 }
