@@ -1,41 +1,45 @@
-
 body {
-    background-color: black;
-    font-family: sans-serif;
-    color: #fff3e3;
-    font-size: 36px;
+  background-color: black;
+  font-family: sans-serif;
+  color: #fff3e3;
+  font-size: 36px;
 }
 
 h1 {
-    color: #ae7182;
+  color: #ae7182;
+  text-shadow: 2px 2px 8px #c0c0f3;
 }
 
 a {
-    color: #ffb985;
+  color: #ffb985;
 }
-
 
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-
-table, td {
-    border: 1px solid gray;
-    border-collapse: collapse;
-    padding: 10px;
+table,
+td {
+  border: 1px solid gray;
+  border-collapse: collapse;
+  padding: 10px;
 }
 
 .language {
-    background-color: #262b53;
-    font-weight:  bold;
+  background-color: #262b53;
+  font-weight: bold;
 }
 
 #aloha {
-    letter-spacing: 8px;
-    font-variant: small-caps;
-    background: green;
+  letter-spacing: 8px;
+  font-variant: small-caps;
+  background: green;
 }
 
+#quote {
+  font-size: 0.75em;
+  text-indent: 4em;
+  line-height: 2em;
+}
