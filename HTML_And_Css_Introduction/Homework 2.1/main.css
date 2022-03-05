@@ -43,3 +43,15 @@ td {
   text-indent: 4em;
   line-height: 2em;
 }
+
+div {
+  width: 240px;
+  padding: 10px;
+  border: 5px solid white;
+  margin: 10px;
+  margin-right: 60px;
+}
+
+div.float-left {
+  float: left;
+}
