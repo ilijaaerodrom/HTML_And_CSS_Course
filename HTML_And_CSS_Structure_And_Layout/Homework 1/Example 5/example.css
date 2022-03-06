@@ -1,0 +1,19 @@
+header {
+  background-color: #f2a062;
+  padding: 15px;
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+}
+#logo {
+  background-color: #eb6481;
+  float: left;
+  padding: 15px;
+}
+section {
+}
+nav {
+  background-color: #d76a50;
+  float: left;
+  padding: 15px;
+}
