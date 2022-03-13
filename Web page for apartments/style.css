@@ -58,3 +58,23 @@ nav ul li a:hover {
   cursor: pointer;
   text-decoration: underline;
 }
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#searchbox {
+  margin: 20px;
+}

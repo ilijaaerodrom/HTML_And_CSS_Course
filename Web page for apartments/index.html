@@ -9,14 +9,6 @@
   </head>
   <body>
     <nav>
-      <div id="logo">
-        <img
-          src="./images/zillow-logo-vector.png"
-          height="100px"
-          alt="logo for the page"
-        />
-      </div>
-
       <div class="left">
         <ul>
           <li><a href="#">Buy</a></li>
@@ -26,6 +18,14 @@
           <li><a href="#">Agent finder</a></li>
         </ul>
       </div>
+      <div id="logo">
+        <img
+          src="./images/zillow-logo-vector.png"
+          height="100px"
+          alt="logo for the page"
+        />
+      </div>
+
       <div class="right">
         <ul>
           <li><a href="#">Manage Rentails</a></li>
@@ -35,11 +35,24 @@
         </ul>
       </div>
     </nav>
-    <img
-      src="./images/tierra-mallorca-rgJ1J8SDEAY-unsplash.jpg"
-      height="500px"
-      width="100%"
-      alt="house"
-    />
+    <div class="container">
+      <img
+        src="./images/istockphoto-1166185364-170667a.jpg"
+        height="400px"
+        width="100%"
+        alt="house"
+      />
+    </div>
+    <div class="centered">
+      <h1>Change starts here</h1>
+    </div>
+    <form action="/action_page.php">
+      <label for="searchbox"></label>
+      <input
+        type="text"
+        id="searchbox"
+        placeholder="Enter an adress, neighborhood, city or ZIP code"
+      />
+    </form>
   </body>
 </html>
