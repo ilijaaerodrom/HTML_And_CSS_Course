@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 70px;
+}
+
+header .logo img {
+  width: 120px;
+  height: 70px;
+}
+
+header nav {
+  width: 35%;
+  min-width: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+header nav ul li {
+  margin: 0 5px;
+  padding: 5px 5px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav ul li:hover {
+  cursor: pointer;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 4px 4px;
+}
+
+header .navRight ul {
+  justify-content: end;
+}
+
+main .bgImg {
+  height: calc(100vh - 75px);
+  background-image: url("images/tierra-mallorca-rgJ1J8SDEAY-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
