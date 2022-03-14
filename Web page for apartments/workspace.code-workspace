@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "..\\Madrid"
+	},
+	{
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Web page for apartments"
+  }
+}
