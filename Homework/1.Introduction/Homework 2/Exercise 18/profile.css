@@ -1,0 +1,19 @@
+img {
+    display: inline-block;
+    height: 300px;
+    width: 400px;
+}
+div  {
+    display: inline-block;
+    margin-left: 50px;
+}
+table tr td {
+    border-bottom: 1px solid gray;
+}
+
+table tr:nth-child(odd) {
+    background-color: lightgray;
+}
+ol li:hover {
+    font-size: 1.2em;
+}
