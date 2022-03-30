@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+header {
+    background-color: coral;
+    padding: 30px;
+}
+footer {
+    background-color: aquamarine;
+    padding: 30px;
+    clear: both;
+}
+aside {
+    background-color: darkgoldenrod;
+    padding: 15px;
+    height: 700px;
+    width: 20.9%;
+    float: right;
+    
+}
+main {
+    background-color: crimson;
+    padding: 15px;
+    height: 700px;
+    width:75%;
+    float:left;
+    
+    
+}
