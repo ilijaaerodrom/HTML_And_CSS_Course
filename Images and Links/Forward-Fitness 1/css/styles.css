@@ -51,26 +51,55 @@ nav ul {
   text-align: center;
 }
 
+
 nav ul li {
   
   font-size: 1.3em;
-  font-family: monospace;
+  font-family: Francois;
   border-top: 1px solid #fff;
-}
 
+}
+nav ul li:first-child {
+  border-top: none;
+}
 nav ul li a {
   display: block;
   color: #fff;
-  text-align: center;
   padding: 0.5em 1em;
   text-decoration: none;
 }
+/*show mobile class, hide table-decktop class*/
+
+.mobile {
+  display: block;
+}
+.tablet-desktop {
+  display: none;
+}
 /* Styles rules fo main content */
 main {
-  clear: left;
+  
   background-color: #fff;
   padding: 2%;
-  font-size: 1.25em;
+  font-size: 1.15em;
+  font-family: Roboto Slab, serif;
+}
+.tel-link {
+  background-color: #404040;
+  padding: 2%;
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  border-radius: 5px;
+}
+.tel-link a {
+  color:#fff;
+  text-decoration: none;
+  font-size: 1.5em;
+  display: block;
+}
+.hours {
+  margin-left: 10%;
 }
 
 h1 {
@@ -85,6 +114,9 @@ h1 {
 img {
   max-width: 100%;
   display: block;
+}
+.round {
+  border-radius: 10px;
 }
 #hero {
   clear: both;
@@ -109,10 +141,9 @@ footer p a {
 #weights,
 #cardio,
 #training {
-  width: 29%;
-  float: left;
   margin: 0 2%;
 }
+/*
 #exercises {
   clear: left;
   border-top: 1px solid #000;
@@ -126,10 +157,11 @@ footer p a {
 #exercises dd {
   padding: 0.5% 1% 2% 0;
 }
+*/
 #contact {
   text-align: center;
 }
-#contact a {
+#contact .contact--email {
   color: #666600;
   text-decoration: none;
 }
@@ -144,5 +176,7 @@ footer p a {
   text-decoration: none;
 }
 .map {
-  border: 8px solid #000;
+  border: 2px solid #000;
+  width: 95%;
+  height: 50%;
 }
