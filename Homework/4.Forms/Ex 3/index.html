@@ -5,31 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <style>
+    <style> 
+    button {
+      padding:10px 40px;
       
-      
+    }
     </style>
   </head>
   <body>
-    <table border="2" height="500px" width="500px">
-      <tr bgcolor="khaki">
-        <th colspan="2"><font color="red">Registration Form</font></th>
+    <table border="2" height="500px" width="25%" align="left">
+      <tr bgcolor= "khaki">
+        <th colspan="2"><font color="red" size="6">Registration Form</font></th>
       </tr>
       <tr>
-        <td>Enter Name</td>
-        <th><input type="text" name="name" /></th>
+        <td bgcolor="#65ceef" align="center"><font size="4">Enter Name</font></td>
+        <th bgcolor="#65ceef" align="left"><input type="text" name="name" /></th>
       </tr>
       <tr>
-        <td>Enter Password</td>
-        <th><input type="password" name="password" /></th>
+        <td bgcolor="#65ceef" align="center"><font size="4">Enter Password<font></font></td>
+        <th bgcolor="#65ceef" align="left"><input type="password" name="password" /></th>
       </tr>
       <tr>
-        <td>Enter Adress</td>
-        <th><textarea name="adress" cols="30" rows="4"></textarea></th>
+        <td bgcolor="#65ceef" align="center"><font size="4">Enter Adress</font></td>
+        <th bgcolor="#65ceef" align="left"><textarea name="adress" cols="21" rows="4"></textarea></th>
       </tr>
       <tr>
-        <td>Select Game</td>
-        <td>
+        <td bgcolor="#65ceef" align="center"><font size="4">Select Game</font></td>
+        <td bgcolor="#65ceef" align="left">
           <input type="checkbox">Hockey <br>
           <input type="checkbox">Football <br>
           <input type="checkbox">Badminton <br>
@@ -39,46 +41,33 @@
       </tr>
         
       <tr>
-        <td>Gender</td>
-        <td><input type="radio" />Male
+        <td bgcolor="#65ceef" align="center"><font size="4">Gender</font></td>
+        <td bgcolor="#65ceef" align="left"><input type="radio" />Male
             <input type="radio">Female
         </td>
       </tr>
       <tr>
-        <td>E-mail adress</td>
-        <th><input type="text" name="email" /></th>
+        <td bgcolor="#65ceef" align="center"><font size="4">Slecet ur age</font></td>
+        <th bgcolor="#65ceef" align="left"><select id="age" name="age">
+          <label for="age"></label>
+          <option value="select">Select</option>
+          <option value="18-35">18-35</option>
+          <option value="35-50">35-50</option>
+        </th>
       </tr>
       <tr>
-        <td>E-mail adress</td>
-        <th><input type="text" name="email" /></th>
+        <td bgcolor="#65ceef" align="center"><font size="4">Select Photo</font></td>
+        <th bgcolor="#65ceef" align="left"><input type="file"></th>
+      </tr>
+
+        <th colspan="3" bgcolor="#65ceef" align="center">
+        <button>Click Me</button>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit Form</button>
+        </th>
       </tr>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      
-    
-
-  
-     
-        <th colspan="2"><button>Sign In</button></th>
-      </tr>
     </table>
 
 
