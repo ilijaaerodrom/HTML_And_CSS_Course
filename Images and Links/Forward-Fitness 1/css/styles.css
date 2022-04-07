@@ -15,11 +15,15 @@ footer,
 h1,
 ul,
 div,
-img {
+img,
+figure,
+figcaption {
   margin: 0;
   padding: 0;
   border: 0;
+  box-sizing: border-box;
 }
+/*Style rule for box sizing aplies for all elements*/
 /*Style rules for body and images*/
 
 body {
@@ -28,12 +32,12 @@ body {
 /* Style rules for header*/
 
 header {
-  position: -webkit-sticky;
-  position:sticky;
+  
+  
   top: 0;
   background-color: #000;
   height: 190px;
-  z-index: 1;
+  
   
 }
 header img {
@@ -88,6 +92,9 @@ main {
   padding: 2%;
   font-size: 1.15em;
   font-family: Roboto Slab, serif;
+}
+.mobile h3 {
+  text-shadow: 5px 5px 8px #ccc;
 }
 .tel-link {
   background-color: #404040;
@@ -148,7 +155,45 @@ footer p a {
 #training {
   margin: 0 2%;
 }
+#contact {
+  text-align: center;
+}
+#contact .contact--email {
+  color: #666600;
+  text-decoration: none;
+}
+.action {
+  font-size: 1.35em;
+  color: #666600;
+  font-weight: bold;
+  text-shadow: 5px 5px 8px #ccc;
+}
+.frame {
+  position: relative;
+  max-width: 450px;
+  margin: 2% auto;
+}
+.pic-text {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color:#fff;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
 
+}
+.external-link {
+  color: #666600;
+  font-weight: bold;
+  text-decoration: none;
+}
+,grid-item4 {
+  grid-column: 1/4;
+}
 /* Media Query for Tablet Viewport*/
 .map {
   border: 2px solid #000;
@@ -173,7 +218,7 @@ footer p a {
 /* Tablet Viewport: Style rule for header */
 
 .header {
-position: static;
+
 padding-bottom: 2%;
 }
 
@@ -196,7 +241,15 @@ nav li a {
 main ul {
   margin: 0 0 4% 10%;
 }
-
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid gap: 20px;
+}
+.pic-text {
+  font-size: 1em;
+  padding: 10px;
+}
 
 
 #exercises {
@@ -250,6 +303,17 @@ nav ul li a {
   main h1 {
     font-size: 1.8em;
   }
+  .pic-text {
+    font-size: 1.5em;
+    padding: 20px;
+  }
+  .frame {
+    opacity: 0.9;
+  }
+  .frame:hover {
+    opacity: 1;
+    box-shadow: 8px 8px 10px #808080;
+  }
   #weights, #cardio, #training {
     width: 29%;
     float: left;
@@ -269,21 +333,4 @@ nav ul li a {
 
 
 
-}
-#contact {
-  text-align: center;
-}
-#contact .contact--email {
-  color: #666600;
-  text-decoration: none;
-}
-.action {
-  font-size: 1.35em;
-  color: #666600;
-  font-weight: bold;
-}
-.external-link {
-  color: #666600;
-  font-weight: bold;
-  text-decoration: none;
 }
