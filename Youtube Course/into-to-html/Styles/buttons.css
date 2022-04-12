@@ -1,0 +1,177 @@
+.subscribe {
+  background-color: #d70606;
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  margin-left: 25px;
+  transition: opacity 0.15s;
+}
+.subscribe:hover {
+  opacity: 0.8;
+}
+.subscribe:active {
+  opacity: 0.5;
+}
+.join {
+  background-color: white;
+  border-color: dodgerblue;
+  border-style: solid;
+  border-width: 1px;
+  color: dodgerblue;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.15s,
+  color 0.15s
+}
+.join:hover {
+  background-color: dodgerblue;
+  color: white;
+}
+.join:active {
+  opacity: 0.7;
+}
+
+.tweet {
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 18px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 8px;
+  transition: box-shadow 0.15s;
+  
+}
+.tweet:hover {
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+}
+.register {
+  background-color: black;
+  color: white;
+  height: 40px;
+  width: 110px;
+  border: none;
+  cursor: pointer;
+  margin-right: 40px;
+  transition: 0.15s;
+}
+.register:hover {
+  opacity: 0.6;
+  
+}
+.register:active {
+  background-color: blue
+}
+
+.cart {
+  background-color: rgb(255,216,20);
+  border: none;
+  height: 40px;
+  width: 200px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-right: 40px;
+  
+}
+.cart:hover {
+  background-color: gold;
+}
+
+
+
+
+.sign {
+  background-color: rgb(46,164,79);
+  color: white;
+  font-weight: bold;
+  height: 40px;
+  width: 100px;
+  font-size: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: box-shadow 0.15s;
+}
+.sign:hover {
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+}
+
+.start {
+  background-color: rgb(121,82,179);
+  color: white;
+  font-weight: bold;
+  height: 40px;
+  width: 120px;
+  border: none;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 15px;
+  
+}
+.start:hover {
+  background-color: blueviolet;
+}
+
+.download {
+  font-weight:bolder;
+  font-size: 15px;
+  color: rgb(108,117,125);
+  height: 40px;
+  width: 120px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  margin-right: 35px;
+}
+.download:hover {
+  background-color: rgb(108,117,125);
+  color: white;
+}
+
+.web {
+  background-color: rgb(10,102,194);
+  color: white;
+  height: 45px;
+  width: 255px;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 22px;
+  margin-right: 20px;
+}
+.web:hover {
+  background-color: darkblue;
+}
+
+.save{
+  color: rgb(10,102,194);
+  height: 45px;
+  border-color: rgb(10,102,194);
+  width: 80px;
+  border-radius: 22px;
+  border-style: solid;
+  border-width: 1px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.save:hover {
+  border-width: 2px;
+  background-color:beige;
+}
