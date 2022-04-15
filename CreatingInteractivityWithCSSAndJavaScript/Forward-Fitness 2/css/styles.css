@@ -297,10 +297,16 @@ label{
     #exercises dd {
         padding: 0.5% 1% 2% 0;
     }
-    .viewx {
+    .viewex {
         font-weight: bold;
         cursor: pointer;
     }
+            
+#example {
+        display: none;
+        margin: 0 auto;
+    }
+    
     .tel-num {
         font-size: 1.25em;
     }
@@ -358,7 +364,7 @@ label{
         -webkit-animation-iteration-count: infinite;
         animation-iteration-count: infinite;
     }
-}
+
 /* Media Query for Desktop */
 @media screen and (min-width: 781px) {
     header {
@@ -438,7 +444,6 @@ label{
         width: 80%;
     }
 }
-Collapse
 
 
 
@@ -452,8 +457,6 @@ Collapse
 
 
 
-
-Message full-stack-dot-net
 
 
 

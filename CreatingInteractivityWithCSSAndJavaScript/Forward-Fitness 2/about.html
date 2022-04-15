@@ -12,7 +12,7 @@
   </head>
   <body>
     <div id="container">
-      <!--Use the header area for the website name or logo-->
+      <!-- Mobile Nav -->
       <nav class="mobile-nav">
         <div id="menu-links">
           <a href="./index.html">Home</a>
@@ -21,8 +21,11 @@
           <a href="./nutrition.html">Nutrition</a>
           <a href="./contact.html">Contact Us</a>
         </div>
-        <a class="menu-icon"><div>&#9776;</div></a>
+        <a class="menu-icon">
+          <div>&#9776;</div>
+        </a>
       </nav>
+      <!--Use the header area for the website name or logo-->
       <header id="ffc-logo">
         <a href="./index.html">
           <img
@@ -31,8 +34,8 @@
           />
         </a>
       </header>
-      <!--Tablet, Desktop Nav-->
-      <nav class="tablet-desktop">
+      <!--Use the nav area to add hyperlinks to other pages within the website-->
+      <nav>
         <ul>
           <li><a href="./index.html">Home</a></li>
           <li><a href="./about.html">About us</a></li>
@@ -109,14 +112,16 @@
               and endurance. Begin in a standing position, drop into a squat and
               extend your hands froward, kick your foot back and then forward
               again quickly, and then jump up from a squatted position.
+              <span class="viewex" onclick="burpees()"
+                >View Burpees example</span
+              >
             </dd>
             <dt>Plank</dt>
             <dd>
               Planks build your core strength. To perform a plank, get in a push
               up position and rest your forearms on the floor. Hold the position
-              as long as you can.<span class="viewx" onclick="plank()"
-                >View Example</span
-              >
+              as long as you can.
+              <span class="viewex" onclick="plank()">View Plank Example.</span>
             </dd>
             <dt>Mountain Climber</dt>
             <dd>
@@ -124,8 +129,23 @@
               the floor in a push up position, then bring one knee up to your
               chest and then switch as quickly as you can (as though you are
               climbing a mountain).
+              <span class="viewex" onclick="montain_climber()"
+                >View Mountain Climber Example.</span
+              >
             </dd>
           </dl>
+          <video controls id="example">
+            <source id="vid-src" src="" type="video/mp4" />
+            <track
+              id="despsrc"
+              src="des"
+              kind="descriptions"
+              srclang="en"
+              label="English Descriptions"
+            />
+            <p>Your browser does not support the video element.</p>
+          </video>
+
           <p>
             For more information about how to stay active, visit
             <a
@@ -144,7 +164,7 @@
           <a href="mailto:forwardfitness@club.net">forwardfitness@club.net</a>
         </p>
       </footer>
+      <script src="./script/script.js"></script>
     </div>
-    <script src="./script/script.js"></script>
   </body>
 </html>
