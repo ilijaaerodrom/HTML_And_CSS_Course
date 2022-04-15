@@ -1,0 +1,47 @@
+body {
+  /*background-image: url(background-image.webp); */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+
+}
+
+a:link {
+color:green;
+}
+a:visited {
+  color:aqua
+}
+a:hover {
+  color:blue
+}
+a:active {
+  color:yellow;
+}
+button:hover {
+   background-color: chartreuse;
+}
+button:active {
+  background-color: chocolate;
+}
+
+li:nth-child(3n) {
+  background-color: yellow;
+}
+
+h1 {
+  text-shadow: 0px 0px 5px yellow, 0px -5px 5px red;
+  
+}
+h1:hover {
+  box-shadow: 5px 5px 5px black;
+}
+#box1 {
+  
+  width: 250px;
+  height: 250px;
+  font-size: 225px;
+  text-align: center;
+  background-color: lightblue;
+}
