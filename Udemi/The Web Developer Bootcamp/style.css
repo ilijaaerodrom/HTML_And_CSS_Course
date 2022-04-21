@@ -225,7 +225,7 @@ h1 {
         background-color: #80ffdb;
         flex: 2 1 800px;
     }
-*/
+
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -288,6 +288,23 @@ ul,li {
     h1 {
         font-size: 3em;
     }
-} 
+} */
 
+.logo-image {
+    height: 50px;
+    width: 60px;
+}
+
+.container-fluid {
+    background-color:#720101;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
 
