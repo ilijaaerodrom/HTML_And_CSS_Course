@@ -1,0 +1,19 @@
+.img-cirlce {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.button {
+  padding: 0 3px;
+  border-radius: 10px;
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+
+h6 {
+  margin-bottom: 0;
+}
+
+.btn-primary {
+  border-color: white;
+}
