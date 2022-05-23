@@ -51,6 +51,7 @@ let price = 2.25;
 let qty = 5;
 console.log(`You bought ${qty} ${product}.Total is: $${price * qty}`);
 
+
 // Math Object
 // Random numbers
 Math.floor(Math.random() * 5); // from 0-4
