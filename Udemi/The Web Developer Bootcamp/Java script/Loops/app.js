@@ -96,3 +96,13 @@ while (quess !== SECRET) {
   quess = prompt(`enter the secret code`);
 } 
 console.log(`congrats.you got yhe secret`);
+
+// Break keyword
+let input = prompt(`Hey, say something`);
+while (true) {
+  input = prompt(input);
+  if (input.toLowerCase() === `stop copying me`) {
+    break;
+  }
+}
+console.log(`Ok, you win`);
