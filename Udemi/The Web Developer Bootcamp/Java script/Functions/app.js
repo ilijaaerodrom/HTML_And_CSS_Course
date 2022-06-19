@@ -10,7 +10,25 @@ singSong();
 
 // Arguments
 
-function greet(firstName) {
-  console.log(`firstName is: ${firstName}` );
+function greet(firstName, lastName) {
+  console.log(`My full name is: ${firstName} ${lastName}`);
 }
-greet(`Ilija`);
+greet(`Ilija`, `Trajkovski`);
+
+
+function repeat(str, numTimes) {
+  let result = ``;
+  for (let i = 0; i < numTimes; i++) {
+    result += str;
+  }
+  console.log(result);
+}
+repeat();
+
+function isSnakeEyes() {
+  if (Num1) {
+
+  } else {
+
+  }
+}
